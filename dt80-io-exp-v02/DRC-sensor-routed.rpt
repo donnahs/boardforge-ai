@@ -1,0 +1,111 @@
+** Drc report for DT80-IO-Exp-v02.kicad_pcb **
+** Created on 2026-07-05T03:37:16+0800 **
+** Report includes: Errors, Warnings **
+
+** Found 10 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(79.4500 mm, 53.4583 mm): Track [ADDR2] on F.Cu, length 1.0517 mm
+    @(79.4500 mm, 54.5100 mm): Pad 23 [SDI12_DATA] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(83.7500 mm, 53.2600 mm): Track [ADDR0] on F.Cu, length 1.0517 mm
+    @(83.7500 mm, 53.2600 mm): Pad 25 [PULSE_COUNT] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(83.7500 mm, 53.2600 mm): Track [ADDR0] on F.Cu, length 1.0517 mm
+    @(83.7500 mm, 53.2600 mm): Pad 25 [PULSE_COUNT] of U2 on F.Cu
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(80.7200 mm, 55.5617 mm): Track [ADDR1] on F.Cu, length 1.0517 mm
+    @(80.7200 mm, 54.5100 mm): Pad 24 [ONEWIRE_DATA] of U2 on F.Cu
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(0.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+    @(160.0000 mm, 0.0000 mm): Segment on Edge.Cuts
+[invalid_outline]: Board has malformed outline (self-intersecting)
+    Local override; error
+    @(160.0000 mm, 100.0000 mm): Segment on Edge.Cuts
+    @(0.0000 mm, 120.0000 mm): Segment on Edge.Cuts
+[shorting_items]: Items shorting two nets (nets ADDR2 and SDI12_DATA)
+    Local override; error
+    @(79.4500 mm, 53.4583 mm): Track [ADDR2] on F.Cu, length 1.0517 mm
+    @(79.4500 mm, 54.5100 mm): Pad 23 [SDI12_DATA] of U2 on F.Cu
+[shorting_items]: Items shorting two nets (nets ADDR0 and PULSE_COUNT)
+    Local override; error
+    @(83.7500 mm, 53.2600 mm): Track [ADDR0] on F.Cu, length 1.0517 mm
+    @(83.7500 mm, 53.2600 mm): Pad 25 [PULSE_COUNT] of U2 on F.Cu
+[shorting_items]: Items shorting two nets (nets PULSE_COUNT and ADDR0)
+    Local override; error
+    @(83.7500 mm, 53.2600 mm): Pad 25 [PULSE_COUNT] of U2 on F.Cu
+    @(83.7500 mm, 53.2600 mm): Track [ADDR0] on F.Cu, length 1.0517 mm
+[shorting_items]: Items shorting two nets (nets ADDR1 and ONEWIRE_DATA)
+    Local override; error
+    @(80.7200 mm, 55.5617 mm): Track [ADDR1] on F.Cu, length 1.0517 mm
+    @(80.7200 mm, 54.5100 mm): Pad 24 [ONEWIRE_DATA] of U2 on F.Cu
+
+** Found 15 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.4600 mm, 12.0000 mm): PTH pad 2 [AI2] of J11
+    @(150.0000 mm, 24.0000 mm): Track [AI2] on F.Cu, length 1.1520 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.4600 mm, 42.0000 mm): Track [AI3] on B.Cu, length 3.5921 mm
+    @(150.0000 mm, 36.0000 mm): Track [AI3] on F.Cu, length 1.1520 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.8400 mm, 33.7300 mm): Track [RS485_B] on F.Cu, length 0.8980 mm
+    @(184.9200 mm, 87.0000 mm): PTH pad 3 [RS485_B] of J16
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(190.0000 mm, 12.0000 mm): PTH pad 1 [AI1] of J11
+    @(150.0000 mm, 12.0000 mm): Track [AI1] on F.Cu, length 1.1520 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.4600 mm, 87.0000 mm): PTH pad 2 [RS485_A] of J16
+    @(36.8400 mm, 36.2700 mm): Track [RS485_A] on F.Cu, length 0.8980 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.3800 mm, 27.0000 mm): Track [+5V] on B.Cu, length 20.3364 mm
+    @(147.4600 mm, 65.0000 mm): Track [+5V] on F.Cu, length 6.2862 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(187.4600 mm, 27.0000 mm): PTH pad 2 [AI4] of J12
+    @(150.0000 mm, 48.0000 mm): Track [AI4] on B.Cu, length 1.1520 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.0000 mm, 115.0800 mm): Track [GND] on F.Cu, length 28.0000 mm
+    @(146.0000 mm, 90.0000 mm): Track [GND] on B.Cu, length 5.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(38.7690 mm, 72.7530 mm): Track [12V_IN] on F.Cu, length 0.3691 mm
+    @(188.8483 mm, 44.3034 mm): Track [12V_IN] on B.Cu, length 25.3932 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.6950 mm, 39.2900 mm): Track [I2C_SCL] on F.Cu, length 22.9450 mm
+    @(112.0000 mm, 115.0800 mm): PTH pad 3 [I2C_SCL] of J17
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.7500 mm, 43.1000 mm): Track [I2C_SDA] on F.Cu, length 21.6920 mm
+    @(112.0000 mm, 112.5400 mm): PTH pad 2 [I2C_SDA] of J17
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(68.0000 mm, 88.0000 mm): Track [+3V3] on B.Cu, length 12.9504 mm
+    @(112.0000 mm, 110.0000 mm): Track [+3V3] on F.Cu, length 28.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(83.7500 mm, 53.2600 mm): Pad 25 [PULSE_COUNT] of U2 on F.Cu
+    @(168.0000 mm, 112.5400 mm): PTH pad 2 [PULSE_COUNT] of J19
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.4500 mm, 54.5100 mm): Pad 23 [SDI12_DATA] of U2 on F.Cu
+    @(187.4600 mm, 72.0000 mm): PTH pad 2 [SDI12_DATA] of J15
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(80.7200 mm, 54.5100 mm): Pad 24 [ONEWIRE_DATA] of U2 on F.Cu
+    @(140.0000 mm, 112.5400 mm): PTH pad 2 [ONEWIRE_DATA] of J18
+
+** Found 0 Footprint errors **
+
+** End of Report **

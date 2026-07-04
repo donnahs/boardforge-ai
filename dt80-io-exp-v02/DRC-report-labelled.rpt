@@ -1,0 +1,53 @@
+** Drc report for DT80-IO-Exp-v02.kicad_pcb **
+** Created on 2026-07-05T03:25:42+0800 **
+** Report includes: Errors, Warnings **
+
+** Found 11 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(127.0000 mm, 88.0000 mm): PCB text 'J9 DI1 IN: GND / DI1' on F.Silkscreen
+    @(120.0000 mm, 87.0000 mm): Reference field of Q2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(117.9900 mm, 87.8400 mm): Segment of Q2 on F.Silkscreen
+    @(127.0000 mm, 88.0000 mm): PCB text 'J9 DI1 IN: GND / DI1' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(127.0000 mm, 88.0000 mm): PCB text 'J9 DI1 IN: GND / DI1' on F.Silkscreen
+    @(122.0100 mm, 87.8400 mm): Segment of Q2 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(110.5700 mm, 20.0000 mm): Reference field of R3
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(111.4775 mm, 20.2373 mm): Segment of R3 on F.Silkscreen
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.5225 mm, 20.2373 mm): Segment of R3 on F.Silkscreen
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(114.5700 mm, 20.0000 mm): Reference field of R4
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+    @(116.5225 mm, 20.2373 mm): Segment of R4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(22.0000 mm, 5.0000 mm): PCB text 'SW1 MODBUS ADDRESS' on F.Silkscreen
+    @(30.0000 mm, 5.0800 mm): Reference field of SW1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(127.0000 mm, 88.0000 mm): PCB text 'J9 DI1 IN: GND / DI1' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(112.0000 mm, 20.0000 mm): PCB text 'U3 ADS1115 ADC' on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
