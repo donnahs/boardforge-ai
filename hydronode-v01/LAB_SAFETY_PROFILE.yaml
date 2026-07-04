@@ -1,0 +1,32 @@
+project: HydroNode v0.1
+revision: starter
+prototype_only: true
+forbidden:
+  - mains_ac_on_board
+  - psu_output_without_current_limit
+  - unattended_first_power
+  - voltage_above_12v
+supply_profiles:
+  first_3v3_logic_check:
+    voltage: 3.3
+    current_limit_a: 0.10
+    shutdown_current_a: 0.08
+    max_duration_s: 5
+    require_manual_connection_confirm: true
+  five_volt_rail_check:
+    voltage: 5.0
+    current_limit_a: 0.15
+    shutdown_current_a: 0.12
+    max_duration_s: 5
+    require_manual_connection_confirm: true
+  twelve_volt_input_no_load:
+    voltage: 12.0
+    current_limit_a: 0.10
+    shutdown_current_a: 0.08
+    max_duration_s: 5
+    require_manual_connection_confirm: true
+load_output_tests:
+  max_test_voltage: 12.0
+  max_channel_current_a: 0.50
+  start_with_dummy_load: true
+  never_use_mains_load: true
