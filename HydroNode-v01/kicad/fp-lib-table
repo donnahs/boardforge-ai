@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "JLC-MCP")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/footprints/JLC-MCP.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "JLC-MCP-MCUs")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-MCUs.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Power")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Power.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Transistors")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Transistors.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Connectors")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Diodes")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Resistors")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Resistors.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Capacitors")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Capacitors.kicad_sym")(options "")(descr ""))
+  (lib (name "JLC-MCP-Misc")(type "KiCad")(uri "/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Misc.kicad_sym")(options "")(descr ""))
+  (lib (name "Device")(type "KiCad")(uri "/usr/share/kicad/symbols/Device.kicad_sym")(options "")(descr ""))
+)

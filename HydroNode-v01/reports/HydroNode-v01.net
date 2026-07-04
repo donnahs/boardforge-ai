@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/donnahs/projects/_active/boardforge-ai/hydronode-v01/kicad/HydroNode-v01.kicad_sch</source>
+    <date>2026-07-04T23:47:29+0800</date>
+    <tool>Eeschema 9.0.9-9.0.9~ubuntu24.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>HydroNode-v01.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47uF 25V input bulk C76659</value>
+      <footprint>JLC-MCP:C1206</footprint>
+      <fields>
+        <field name="LCSC">C76659</field>
+        <field name="MPN">C3216X5R1E476MTJ00E</field>
+        <field name="Manufacturer">TDK</field>
+        <field name="Purpose">12V protected input bulk capacitor</field>
+        <field name="Footprint">JLC-MCP:C1206</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C76659"/>
+      <property name="MPN" value="C3216X5R1E476MTJ00E"/>
+      <property name="Manufacturer" value="TDK"/>
+      <property name="Purpose" value="12V protected input bulk capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff778fa6-3d99-482a-886c-fb052235ce18</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10uF 16V 5V bulk C326595</value>
+      <footprint>JLC-MCP:C0805</footprint>
+      <fields>
+        <field name="LCSC">C326595</field>
+        <field name="MPN">CC0805KKX7R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">5V rail bulk capacitor</field>
+        <field name="Footprint">JLC-MCP:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C326595"/>
+      <property name="MPN" value="CC0805KKX7R7BB106"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="5V rail bulk capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>86f19c80-da48-4382-8e2d-c34bdb20fb04</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF 16V 3V3 bulk C326595</value>
+      <footprint>JLC-MCP:C0805</footprint>
+      <fields>
+        <field name="LCSC">C326595</field>
+        <field name="MPN">CC0805KKX7R7BB106</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">3V3 rail bulk capacitor</field>
+        <field name="Footprint">JLC-MCP:C0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C326595"/>
+      <property name="MPN" value="CC0805KKX7R7BB106"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="3V3 rail bulk capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f07a5e4-89cc-46d1-b319-3c6a306c96ad</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF ESP32 decouple C14663</value>
+      <footprint>JLC-MCP:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">ESP32 local 100nF decoupling</field>
+        <field name="Footprint">JLC-MCP:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="ESP32 local 100nF decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>61b7a5cf-7ba8-4354-accd-cf6b84fe683a</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF buck decouple C14663</value>
+      <footprint>JLC-MCP:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">Buck/LDO rail 100nF decoupling</field>
+        <field name="Footprint">JLC-MCP:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="Buck/LDO rail 100nF decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34695054-2e0a-4ca8-9508-6fced7b696e3</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF LDO decouple C14663</value>
+      <footprint>JLC-MCP:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">3V3 LDO 100nF decoupling</field>
+        <field name="Footprint">JLC-MCP:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="3V3 LDO 100nF decoupling"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c03e834-143e-459e-bf7d-e97867fe125b</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF ESP32 EN reset cap C14663</value>
+      <footprint>JLC-MCP:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Purpose">ESP32 EN reset delay capacitor</field>
+        <field name="Footprint">JLC-MCP:C0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description=""/>
+      <property name="LCSC" value="C14663"/>
+      <property name="MPN" value="CC0603KRX7R9BB104"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="Purpose" value="ESP32 EN reset delay capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54c46f6e-13de-498d-b862-868b123351be</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS14 flyback PUMP1</value>
+      <footprint>JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</datasheet>
+      <description>1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</field>
+        <field name="Description">1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Diodes" part="SS14" description="1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C2480"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7af6f701-fe4c-42b1-a642-c6b77dc40c42</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>SS14 flyback PUMP2</value>
+      <footprint>JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</datasheet>
+      <description>1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</field>
+        <field name="Description">1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Diodes" part="SS14" description="1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C2480"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a07544e-fa4a-463e-9221-8678d8dff1f1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS14 flyback PUMP3</value>
+      <footprint>JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</datasheet>
+      <description>1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</field>
+        <field name="Description">1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Diodes" part="SS14" description="1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C2480"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6ce9e03-a8fa-44ee-9c1d-a3b8c58b99b1</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>SS14 flyback PUMP4</value>
+      <footprint>JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</datasheet>
+      <description>1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</field>
+        <field name="Description">1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Diodes" part="SS14" description="1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C2480"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bcca0ca4-c4c7-405b-b1d2-caa27ce2f2d2</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>SS34 reverse polarity C8678</value>
+      <footprint>JLC-MCP:SMA_L4.3-W2.6-LS5.2-RD</footprint>
+      <description>Schottky diode</description>
+      <fields>
+        <field name="LCSC">C8678</field>
+        <field name="MPN">SS34</field>
+        <field name="Manufacturer">MDD</field>
+        <field name="Purpose">Series Schottky reverse-polarity protection</field>
+        <field name="Footprint">JLC-MCP:SMA_L4.3-W2.6-LS5.2-RD</field>
+        <field name="Datasheet"/>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C8678"/>
+      <property name="MPN" value="SS34"/>
+      <property name="Manufacturer" value="MDD"/>
+      <property name="Purpose" value="Series Schottky reverse-polarity protection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b25cdc76-9e37-48de-9c74-e557359b0dce</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>500mA polyfuse C43379</value>
+      <footprint>JLC-MCP:F1206</footprint>
+      <description>Fuse</description>
+      <fields>
+        <field name="LCSC">C43379</field>
+        <field name="MPN">SMD1206P050TF/13.2</field>
+        <field name="Manufacturer">RUILON</field>
+        <field name="Purpose">12V input resettable polyfuse, 500mA hold, 13.2V max</field>
+        <field name="Footprint">JLC-MCP:F1206</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fuse</field>
+      </fields>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="LCSC" value="C43379"/>
+      <property name="MPN" value="SMD1206P050TF/13.2"/>
+      <property name="Manufacturer" value="RUILON"/>
+      <property name="Purpose" value="12V input resettable polyfuse, 500mA hold, 13.2V max"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="fuse"/>
+      <property name="ki_fp_filters" value="*Fuse*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25f8156e-c321-4d0b-bec1-1b50ac0a312c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>12V_IN</value>
+      <footprint>JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</datasheet>
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-2P" description="1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474950"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5147fc62-b07e-4848-b8be-fb7f1724d3a3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>PUMP1_OUT +12V/SW</value>
+      <footprint>JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</datasheet>
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-2P" description="1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474950"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1376cf3-a1cc-49f9-8c67-43d407a730f9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PUMP2_OUT +12V/SW</value>
+      <footprint>JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</datasheet>
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-2P" description="1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474950"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab0d7c7d-f4d9-4f31-9293-407b70a6bee1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PUMP3_OUT +12V/SW</value>
+      <footprint>JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</datasheet>
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-2P" description="1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474950"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>18ecdd7e-0d95-4dc1-a544-d4f56ad8295b</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PUMP4_OUT +12V/SW</value>
+      <footprint>JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</datasheet>
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-2P" description="1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474950"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4e93bd0-21d4-496e-ad97-80e43cfdbf29</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>PH_MODULE GND/3V3/SIG</value>
+      <footprint>JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</datasheet>
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-3P" description="1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474951"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2de2519-004f-42cf-b88c-81113445e170</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>EC_MODULE GND/3V3/SIG</value>
+      <footprint>JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</datasheet>
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-3P" description="1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474951"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7d056f5-b48d-4601-a8dd-88e7cc073d14</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>DS18B20 GND/3V3/DATA</value>
+      <footprint>JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</datasheet>
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-3P" description="1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474951"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9052331-8f7f-453f-af84-e2498794fbbb</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>WATER_LEVEL GND/3V3/SIG</value>
+      <footprint>JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</datasheet>
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-3P" description="1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474951"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a6bd062-54af-48b2-87ac-3e8290c03d7d</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>FLOW_SENSOR GND/5V/SIG</value>
+      <footprint>JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</datasheet>
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF128-5_0-3P" description="1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C474951"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85d317d4-a031-4bae-bc32-ee6399c0148d</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>I2C_EXP GND/3V3/SDA/SCL</value>
+      <footprint>JLC-MCP:CONN-TH_KF168-5.0-4P</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C49173018.pdf</datasheet>
+      <description>1 12~22 15A 1x4P 2.5 4 4P 500V 5mm M2.5 Plugin,P=5mm Screw Terminal Blocks ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:CONN-TH_KF168-5.0-4P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49173018.pdf</field>
+        <field name="Description">1 12~22 15A 1x4P 2.5 4 4P 500V 5mm M2.5 Plugin,P=5mm Screw Terminal Blocks ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Connectors" part="KF168-5_0-4P" description="1 12~22 15A 1x4P 2.5 4 4P 500V 5mm M2.5 Plugin,P=5mm Screw Terminal Blocks ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C49173018"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ccb018be-9d5a-4ef4-896b-6820ed96bead</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PUMP1_LOW_SIDE</value>
+      <footprint>JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</datasheet>
+      <description>1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</field>
+        <field name="Description">1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Transistors" part="AO3400_C181090" description="1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C181090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>930ab8aa-33a7-4331-976e-c49ab1f79728</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>PUMP2_LOW_SIDE</value>
+      <footprint>JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</datasheet>
+      <description>1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</field>
+        <field name="Description">1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Transistors" part="AO3400_C181090" description="1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C181090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4eaf3dbb-7524-4c61-82a6-0d317457ef94</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>PUMP3_LOW_SIDE</value>
+      <footprint>JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</datasheet>
+      <description>1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</field>
+        <field name="Description">1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Transistors" part="AO3400_C181090" description="1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C181090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38d2f74-dece-4963-96f7-7612ec8e0430</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>PUMP4_LOW_SIDE</value>
+      <footprint>JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</datasheet>
+      <description>1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</field>
+        <field name="Description">1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Transistors" part="AO3400_C181090" description="1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C181090"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8cfa7b8-9962-475e-aaf2-5ebebf97c945</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100R gate PUMP1</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</datasheet>
+      <description>100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</field>
+        <field name="Description">100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF1000T5E" description="100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C22775"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>768ae085-75f1-45bd-ba52-3d70afc7a6ea</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100R gate PUMP2</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</datasheet>
+      <description>100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</field>
+        <field name="Description">100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF1000T5E" description="100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C22775"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b1ecd4c-2c71-48c5-bf5c-a62c71143ba8</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R gate PUMP3</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</datasheet>
+      <description>100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</field>
+        <field name="Description">100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF1000T5E" description="100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C22775"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>784d1437-a983-4347-af2d-f17269362a9e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100R gate PUMP4</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</datasheet>
+      <description>100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</field>
+        <field name="Description">100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF1000T5E" description="100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C22775"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c2eb1f6-a436-47b6-b203-d3b6396bc42a</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k pulldown PUMP1</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</datasheet>
+      <description>100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</field>
+        <field name="Description">100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="RCT0310KFLF" description="100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C177644"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8272cee-4775-4e5d-933d-81b0758977a8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k pulldown PUMP2</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</datasheet>
+      <description>100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</field>
+        <field name="Description">100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="RCT0310KFLF" description="100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C177644"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a9a4408-3034-4c17-bb94-7fdb1a01151b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k pulldown PUMP3</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</datasheet>
+      <description>100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</field>
+        <field name="Description">100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="RCT0310KFLF" description="100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C177644"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7308758f-9c23-4aff-8284-392904ce1497</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k pulldown PUMP4</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</datasheet>
+      <description>100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</field>
+        <field name="Description">100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="RCT0310KFLF" description="100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C177644"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4594632-55eb-485e-8f14-14ce104f0e5a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4.7k DS18B20 pullup</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <description>100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</field>
+        <field name="Description">100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF4701T5E" description="100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C23162"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a49f12a-6852-4af4-a1e6-28cf1b8133c1</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4.7k I2C SDA pullup placeholder</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <description>100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</field>
+        <field name="Description">100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF4701T5E" description="100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C23162"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d5cff6c3-ab0c-42db-b17a-c04ee4654a67</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.7k I2C SCL pullup placeholder</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <description>100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</field>
+        <field name="Description">100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Resistors" part="0603WAF4701T5E" description="100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C23162"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70bc91c4-24b6-4b8b-8920-3d86cffc689d</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k ESP32 EN pullup C177644</value>
+      <footprint>JLC-MCP:R0603</footprint>
+      <fields>
+        <field name="LCSC">C177644</field>
+        <field name="MPN">RCT0310KFLF</field>
+        <field name="Manufacturer">HKR</field>
+        <field name="Purpose">ESP32 EN pull-up resistor</field>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description=""/>
+      <property name="LCSC" value="C177644"/>
+      <property name="MPN" value="RCT0310KFLF"/>
+      <property name="Manufacturer" value="HKR"/>
+      <property name="Purpose" value="ESP32 EN pull-up resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c83f40e2-2897-4e67-998a-317caee58bfe</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32-WROOM-32D</value>
+      <footprint>JLC-MCP:WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Espressif-Systems-ESP32-WROOM-32D-N4_C473012.pdf</datasheet>
+      <description>-98dBm 2.4GHz 2.7V~3.6V 20.5dBm Bluetooth4.2 ESP32-DOWD On-board PCB Antenna UART、SPI、I2C、GPIO SMD,25.5x18mm WiFi Modules ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Espressif-Systems-ESP32-WROOM-32D-N4_C473012.pdf</field>
+        <field name="Description">-98dBm 2.4GHz 2.7V~3.6V 20.5dBm Bluetooth4.2 ESP32-DOWD On-board PCB Antenna UART、SPI、I2C、GPIO SMD,25.5x18mm WiFi Modules ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-MCUs" part="ESP32-WROOM-32D" description="-98dBm 2.4GHz 2.7V~3.6V 20.5dBm Bluetooth4.2 ESP32-DOWD On-board PCB Antenna UART、SPI、I2C、GPIO SMD,25.5x18mm WiFi Modules ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C473012"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>23082aa5-b727-4faa-bd18-6ba525a3fe50</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MP1584 12V-&gt;5V buck core</value>
+      <footprint>JLC-MCP:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/C15051.pdf</datasheet>
+      <description>@(TA) 1 100kHz~1.5MHz 100uA 3A 4.5V~28V 800mV~25V Adjustable Buck Buck Built-in No SOIC-8-EP DC-DC Converters ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C15051.pdf</field>
+        <field name="Description">@(TA) 1 100kHz~1.5MHz 100uA 3A 4.5V~28V 800mV~25V Adjustable Buck Buck Built-in No SOIC-8-EP DC-DC Converters ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Power" part="MP1584EN-LF-Z" description="@(TA) 1 100kHz~1.5MHz 100uA 3A 4.5V~28V 800mV~25V Adjustable Buck Buck Built-in No SOIC-8-EP DC-DC Converters ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C15051"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>093d2ce7-b877-4ffb-aa4c-09c352ed1f04</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AMS1117-3.3 5V-&gt;3V3</value>
+      <footprint>JLC-MCP:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2410121508_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf</datasheet>
+      <description>0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS</description>
+      <fields>
+        <field name="Footprint">JLC-MCP:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2410121508_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf</field>
+        <field name="Description">0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS</field>
+      </fields>
+      <libsource lib="JLC-MCP-Power" part="AMS1117-3_3" description="0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="HydroNode-v01.kicad_sch"/>
+      <property name="ki_keywords" value="C6186"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da80349b-3835-4b9b-b910-37cdd2eaf76d</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Schottky diode</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Fuse</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Connectors" part="KF128-5_0-2P">
+      <description>1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KF128-5.0-2P</field>
+        <field name="Footprint">JLC-MCP:CONN-TH_P5.00_KF128-5.0-2P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.pdf</field>
+        <field name="Description">1 12~22 1x2P 2 2.5 24A 250V 2P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-0-2P_C474950.html</field>
+        <field name="LCSC">C474950</field>
+        <field name="Manufacturer">KEFA(科发)</field>
+        <field name="Stock">205</field>
+        <field name="Price">0.112361USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">5</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">KF128-5.0-2P</field>
+        <field name="Operating Temperature">-40℃~+105℃</field>
+        <field name="Number of Positions or Pins">1x2P</field>
+        <field name="Voltage Rating (Max)">250V</field>
+        <field name="Number of Rows">1</field>
+        <field name="Color">Green</field>
+        <field name="Number of Pins">2P</field>
+        <field name="Current Rating">24A</field>
+        <field name="Pitch">5mm</field>
+        <field name="Wire Gauge - AWG">12~22</field>
+        <field name="Wire Gauge - mm2">2.5</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of PINs Per Row">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Connectors" part="KF128-5_0-3P">
+      <description>1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KF128-5.0-3P</field>
+        <field name="Footprint">JLC-MCP:CONN-TH_3P-P5.00_KF128-5.0-3P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2303171000_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.pdf</field>
+        <field name="Description">1 12~22 1x3P 2.5 24A 250V 3 3P 5mm Green Through Hole 插件,P=5mm Screw Terminal Blocks ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-0-3P_C474951.html</field>
+        <field name="LCSC">C474951</field>
+        <field name="Manufacturer">KEFA(科发)</field>
+        <field name="Stock">311</field>
+        <field name="Price">0.166667USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">1</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">KF128-5.0-3P</field>
+        <field name="Operating Temperature">-40℃~+105℃</field>
+        <field name="Number of Positions or Pins">1x3P</field>
+        <field name="Voltage Rating (Max)">250V</field>
+        <field name="Number of Rows">1</field>
+        <field name="Color">Green</field>
+        <field name="Number of Pins">3P</field>
+        <field name="Current Rating">24A</field>
+        <field name="Pitch">5mm</field>
+        <field name="Wire Gauge - AWG">12~22</field>
+        <field name="Wire Gauge - mm2">2.5</field>
+        <field name="Mounting Type">Through Hole</field>
+        <field name="Number of PINs Per Row">3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Connectors" part="KF168-5_0-4P">
+      <description>1 12~22 15A 1x4P 2.5 4 4P 500V 5mm M2.5 Plugin,P=5mm Screw Terminal Blocks ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/C49173018.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">KF168-5.0-4P</field>
+        <field name="Footprint">JLC-MCP:CONN-TH_KF168-5.0-4P</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C49173018.pdf</field>
+        <field name="Description">1 12~22 15A 1x4P 2.5 4 4P 500V 5mm M2.5 Plugin,P=5mm Screw Terminal Blocks ROHS</field>
+        <field name="LCSC">C49173018</field>
+        <field name="Manufacturer">KEFA(科发)</field>
+        <field name="Process">THT</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">KF168-5.0-4P</field>
+        <field name="Operating Temperature">-40℃~+105℃</field>
+        <field name="Number of Positions or Pins">1x4P</field>
+        <field name="Voltage Rating (Max)">500V</field>
+        <field name="Number of Rows">1</field>
+        <field name="Number of Pins">4P</field>
+        <field name="Pitch">5mm</field>
+        <field name="Current Rating">15A</field>
+        <field name="Wire Gauge - AWG">12~22</field>
+        <field name="Wire Gauge - mm2">2.5</field>
+        <field name="Screw Specification">M2.5</field>
+        <field name="Number of PINs Per Row">4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Diodes" part="SS14">
+      <description>1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SS14</field>
+        <field name="Footprint">JLC-MCP:SMA_L4.2-W2.6-LS5.0-RD_1</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2407101109_MDD-Microdiode-Semiconductor-SS14_C2480.pdf</field>
+        <field name="Description">1A 25A 300uA@40V 40V 550mV@1A Independent SMA(DO-214AC) Schottky Diodes ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_SS14_C2480.html</field>
+        <field name="LCSC">C2480</field>
+        <field name="Manufacturer">MDD(辰达半导体)</field>
+        <field name="Stock">383600</field>
+        <field name="Price">0.0116USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">50</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Basic Part</field>
+        <field name="Part">SS14</field>
+        <field name="Voltage - Forward(Vf@If)">550mV@1A</field>
+        <field name="Non-Repetitive Peak Forward Surge Current">25A</field>
+        <field name="Voltage - DC Reverse(Vr)">40V</field>
+        <field name="Operating Junction Temperature Range">-55℃~+150℃</field>
+        <field name="Diode Configuration">Standalone</field>
+        <field name="Current - Rectified">1A</field>
+        <field name="Reverse Leakage Current (Ir)">300uA@40V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-MCUs" part="ESP32-WROOM-32D">
+      <description>-98dBm 2.4GHz 2.7V~3.6V 20.5dBm Bluetooth4.2 ESP32-DOWD On-board PCB Antenna UART、SPI、I2C、GPIO SMD,25.5x18mm WiFi Modules ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Espressif-Systems-ESP32-WROOM-32D-N4_C473012.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32-WROOM-32D</field>
+        <field name="Footprint">JLC-MCP:WIFIM-SMD_39P-L25.5-W18.0-P1.27-BL</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Espressif-Systems-ESP32-WROOM-32D-N4_C473012.pdf</field>
+        <field name="Description">-98dBm 2.4GHz 2.7V~3.6V 20.5dBm Bluetooth4.2 ESP32-DOWD On-board PCB Antenna UART、SPI、I2C、GPIO SMD,25.5x18mm WiFi Modules ROHS</field>
+        <field name="LCSC">C473012</field>
+        <field name="Manufacturer">ESPRESSIF(乐鑫)</field>
+        <field name="Process">SMT</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">ESP32-WROOM-32D-N4</field>
+        <field name="Antenna Type">On-board PCB Antenna</field>
+        <field name="Operating Temperature">-40℃~+85℃</field>
+        <field name="Sensitivity">-98dBm</field>
+        <field name="Output Power">20.5dBm</field>
+        <field name="Voltage - Supply">2.7V~3.6V</field>
+        <field name="Frequency">2.4GHz</field>
+        <field name="Utilized IC / Part">ESP32-DOWD</field>
+        <field name="Interface Type">UART、SPI、I2C、GPIO</field>
+        <field name="Wireless Standard">Bluetooth4.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="VDD33" type="unspecified"/>
+        <pin num="3" name="EN" type="unspecified"/>
+        <pin num="4" name="SENSOR_VP" type="unspecified"/>
+        <pin num="5" name="SENSOR_VN" type="unspecified"/>
+        <pin num="6" name="IO34" type="unspecified"/>
+        <pin num="7" name="IO35" type="unspecified"/>
+        <pin num="8" name="IO32" type="unspecified"/>
+        <pin num="9" name="IO33" type="unspecified"/>
+        <pin num="10" name="IO25" type="unspecified"/>
+        <pin num="11" name="IO26" type="unspecified"/>
+        <pin num="12" name="IO27" type="unspecified"/>
+        <pin num="13" name="IO14" type="unspecified"/>
+        <pin num="14" name="IO12" type="unspecified"/>
+        <pin num="15" name="GND" type="unspecified"/>
+        <pin num="16" name="IO13" type="unspecified"/>
+        <pin num="17" name="SD2" type="unspecified"/>
+        <pin num="18" name="SD3" type="unspecified"/>
+        <pin num="19" name="CMD" type="unspecified"/>
+        <pin num="20" name="CLK" type="unspecified"/>
+        <pin num="21" name="SD0" type="unspecified"/>
+        <pin num="22" name="SD1" type="unspecified"/>
+        <pin num="23" name="IO15" type="unspecified"/>
+        <pin num="24" name="IO2" type="unspecified"/>
+        <pin num="25" name="IO0" type="unspecified"/>
+        <pin num="26" name="IO4" type="unspecified"/>
+        <pin num="27" name="IO16" type="unspecified"/>
+        <pin num="28" name="IO17" type="unspecified"/>
+        <pin num="29" name="IO5" type="unspecified"/>
+        <pin num="30" name="IO18" type="unspecified"/>
+        <pin num="31" name="IO19" type="unspecified"/>
+        <pin num="32" name="NC" type="unspecified"/>
+        <pin num="33" name="IO21" type="unspecified"/>
+        <pin num="34" name="RXD0" type="unspecified"/>
+        <pin num="35" name="TXD0" type="unspecified"/>
+        <pin num="36" name="IO22" type="unspecified"/>
+        <pin num="37" name="IO23" type="unspecified"/>
+        <pin num="38" name="GND" type="unspecified"/>
+        <pin num="39" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Power" part="AMS1117-3_3">
+      <description>0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2410121508_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AMS1117-3.3</field>
+        <field name="Footprint">JLC-MCP:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2410121508_Advanced-Monolithic-Systems-AMS1117-3-3_C6186.pdf</field>
+        <field name="Description">0.003%Vout 1 1.1V@(800mA) 15V 1A 3.3V 5mA 72dB@(120Hz) Fixed Over Current Protection、Short Circuit Protection、Thermal shutdown Positive SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/Low-Dropout-Regulators-LDO_AMS_AMS1117-3-3_AMS1117-3-3_C6186.html</field>
+        <field name="LCSC">C6186</field>
+        <field name="Manufacturer">Advanced Monolithic Systems</field>
+        <field name="Stock">222228</field>
+        <field name="Price">0.1231USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">5</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Basic Part</field>
+        <field name="Part">AMS1117-3.3</field>
+        <field name="Power Supply Rejection Ratio (PSRR)">72dB@(120Hz)</field>
+        <field name="Operating Temperature">-40℃~+125℃</field>
+        <field name="standby current">5mA</field>
+        <field name="Noise">0.003%Vout</field>
+        <field name="Voltage - Supply">15V</field>
+        <field name="Output Type">Fixed</field>
+        <field name="Output Current">1A</field>
+        <field name="Output Configuration">Positive</field>
+        <field name="Features">Over Current Protection、Short Circuit Protection、Thermal shutdown</field>
+        <field name="Output Voltage">3.3V</field>
+        <field name="Voltage Dropout">1.1V@(800mA)</field>
+        <field name="Number of Outputs">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="VOUT" type="unspecified"/>
+        <pin num="3" name="VIN" type="unspecified"/>
+        <pin num="4" name="VOUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Power" part="MP1584EN-LF-Z">
+      <description>@(TA) 1 100kHz~1.5MHz 100uA 3A 4.5V~28V 800mV~25V Adjustable Buck Buck Built-in No SOIC-8-EP DC-DC Converters ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/C15051.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP1584EN-LF-Z</field>
+        <field name="Footprint">JLC-MCP:SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL-EP2.0</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/C15051.pdf</field>
+        <field name="Description">@(TA) 1 100kHz~1.5MHz 100uA 3A 4.5V~28V 800mV~25V Adjustable Buck Buck Built-in No SOIC-8-EP DC-DC Converters ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/DC-DC-Converters_MPS_MP1584EN-LF-Z_MP1584EN-LF-Z_C15051.html</field>
+        <field name="LCSC">C15051</field>
+        <field name="Manufacturer">MPS(芯源)</field>
+        <field name="Stock">50688</field>
+        <field name="Price">0.4025USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">1</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">MP1584EN-LF-Z</field>
+        <field name="Operating Temperature">-20℃~+85℃@(TA)</field>
+        <field name="Function">Step-down type</field>
+        <field name="Synchronous Rectifier">No</field>
+        <field name="Frequency - Switching">100kHz~1.5MHz</field>
+        <field name="Output Type">Adjustable</field>
+        <field name="Voltage - Supply">4.5V~28V</field>
+        <field name="Output Current">3A</field>
+        <field name="Quiescent Current">100uA</field>
+        <field name="Features">Overcurrent Protection、Light load efficient mode、External compensation</field>
+        <field name="Switch tube (built-in/external)">Built-in</field>
+        <field name="Topology">Buck</field>
+        <field name="Output Voltage">800mV~25V</field>
+        <field name="Number of Outputs">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="unspecified"/>
+        <pin num="2" name="EN" type="unspecified"/>
+        <pin num="3" name="COMP" type="unspecified"/>
+        <pin num="4" name="FB" type="unspecified"/>
+        <pin num="5" name="GND" type="unspecified"/>
+        <pin num="6" name="FREQ" type="unspecified"/>
+        <pin num="7" name="VIN" type="unspecified"/>
+        <pin num="8" name="BST" type="unspecified"/>
+        <pin num="9" name="EP" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Resistors" part="0603WAF1000T5E">
+      <description>100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0603WAF1000T5E</field>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2411221126_UNI-ROYAL-Uniroyal-Elec-0603WAF1000T5E_C22775.pdf</field>
+        <field name="Description">100mW 100Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_100R-1000-1_C22775.html</field>
+        <field name="LCSC">C22775</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="Stock">2431298</field>
+        <field name="Price">0.0017USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">100</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Basic Part</field>
+        <field name="Part">0603WAF1000T5E</field>
+        <field name="Resistance">100Ω</field>
+        <field name="Operating Temperature">-55℃~+155℃</field>
+        <field name="Power(Watts)">100mW</field>
+        <field name="Type">Thick Film Resistor</field>
+        <field name="Voltage-Supply(Max)">75V</field>
+        <field name="Tolerance">±1%</field>
+        <field name="Temperature Coefficient">±100ppm/℃</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Resistors" part="0603WAF4701T5E">
+      <description>100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">0603WAF4701T5E</field>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2206010116_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</field>
+        <field name="Description">100mW 4.7kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_4-7KR-4701-1_C23162.html</field>
+        <field name="LCSC">C23162</field>
+        <field name="Manufacturer">UNI-ROYAL(厚声)</field>
+        <field name="Stock">3107600</field>
+        <field name="Price">0.0017USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">100</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Basic Part</field>
+        <field name="Part">0603WAF4701T5E</field>
+        <field name="Resistance">4.7kΩ</field>
+        <field name="Operating Temperature">-55℃~+155℃</field>
+        <field name="Power(Watts)">100mW</field>
+        <field name="Type">Thick Film Resistor</field>
+        <field name="Voltage-Supply(Max)">75V</field>
+        <field name="Tolerance">±1%</field>
+        <field name="Temperature Coefficient">±100ppm/℃</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Resistors" part="RCT0310KFLF">
+      <description>100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</description>
+      <docs>https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</docs>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RCT0310KFLF</field>
+        <field name="Footprint">JLC-MCP:R0603</field>
+        <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2304140030_HKR-Hong-Kong-Resistors-RCT0310KFLF_C177644.pdf</field>
+        <field name="Description">100mW 10kΩ 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1002-1_C177644.html</field>
+        <field name="LCSC">C177644</field>
+        <field name="Manufacturer">HKR(香港电阻)</field>
+        <field name="Stock">1100</field>
+        <field name="Price">0.0018USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">100</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">RCT0310KFLF</field>
+        <field name="Resistance">10kΩ</field>
+        <field name="Operating Temperature">-55℃~+155℃</field>
+        <field name="Power(Watts)">100mW</field>
+        <field name="Type">Thick Film Resistor</field>
+        <field name="Voltage-Supply(Max)">75V</field>
+        <field name="Tolerance">±1%</field>
+        <field name="Temperature Coefficient">±100ppm/℃</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="JLC-MCP-Transistors" part="AO3400_C181090">
+      <description>1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</description>
+      <docs>https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400_C181090</field>
+        <field name="Footprint">JLC-MCP:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="Datasheet">https://www.lcsc.com/datasheet/lcsc_datasheet_2204271430_Guangdong-Hottech-AO3400_C181090.pdf</field>
+        <field name="Description">1 N-channel 1.45V 1.4W 28mΩ@10V 30V 5.8A 50pF 630pF 75pF 7nC@4.5V N-Channel SOT-23 MOSFETs ROHS</field>
+        <field name="Product Page">https://lcsc.com/product-detail/MOSFET_AO3400_C181090.html</field>
+        <field name="LCSC">C181090</field>
+        <field name="Manufacturer">Hottech(合科泰)</field>
+        <field name="Stock">7980</field>
+        <field name="Price">0.0374USD</field>
+        <field name="Process">SMT</field>
+        <field name="Minimum Qty">10</field>
+        <field name="Attrition Qty">0</field>
+        <field name="Class">Extended Part</field>
+        <field name="Part">AO3400</field>
+        <field name="Type">N-Channel</field>
+        <field name="Input Capacitance(Ciss)">630pF</field>
+        <field name="Number">1 N-channel</field>
+        <field name="Gate Threshold Voltage (Vgs(th))">1.45V</field>
+        <field name="Gate Charge(Qg)">7nC@4.5V</field>
+        <field name="Reverse Transfer Capacitance (Crss@Vds)">50pF</field>
+        <field name="Current - Continuous Drain(Id)">5.8A</field>
+        <field name="Drain to Source Voltage">30V</field>
+        <field name="Output Capacitance(Coss)">75pF</field>
+        <field name="Pd - Power Dissipation">1.4W</field>
+        <field name="RDS(on)">28mΩ@10V</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="unspecified"/>
+        <pin num="2" name="S" type="unspecified"/>
+        <pin num="3" name="D" type="unspecified"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols/Device.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-Connectors">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Connectors.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-Diodes">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Diodes.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-MCUs">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-MCUs.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-Power">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Power.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-Resistors">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Resistors.kicad_sym</uri>
+    </library>
+    <library logical="JLC-MCP-Transistors">
+      <uri>/home/donnahs/.local/share/kicad/9.0/3rdparty/jlc_mcp/symbols/JLC-MCP-Transistors.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3V3" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="R10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VDD33" pintype="unspecified"/>
+      <node ref="U3" pin="2" pinfunction="VOUT" pintype="unspecified"/>
+      <node ref="U3" pin="4" pinfunction="VOUT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/+5V" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="U3" pin="3" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/+12V_FUSED" class="Default">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/+12V_IN" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="7" pinfunction="VIN" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/+12V_RAW" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/EC_ADC_GPIO35" class="Default">
+      <node ref="J7" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U1" pin="7" pinfunction="IO35" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/ESP32_EN" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/FLOW_GPIO26" class="Default">
+      <node ref="J10" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U1" pin="11" pinfunction="IO26" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="J10" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J11" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="unspecified"/>
+      <node ref="R5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="15" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="38" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="39" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="9" pinfunction="EP" pintype="unspecified"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/I2C_SCL_GPIO22" class="Default">
+      <node ref="J11" pin="4" pinfunction="4" pintype="unspecified"/>
+      <node ref="R11" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="IO22" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/I2C_SDA_GPIO21" class="Default">
+      <node ref="J11" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="33" pinfunction="IO21" pintype="unspecified"/>
+    </net>
+    <net code="12" name="/LEVEL_GPIO27" class="Default">
+      <node ref="J9" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U1" pin="12" pinfunction="IO27" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/PH_ADC_GPIO34" class="Default">
+      <node ref="J6" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="U1" pin="6" pinfunction="IO34" pintype="unspecified"/>
+    </net>
+    <net code="14" name="/PUMP1_GATE_DRV" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="15" name="/PUMP1_GPIO16" class="Default">
+      <node ref="R1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="27" pinfunction="IO16" pintype="unspecified"/>
+    </net>
+    <net code="16" name="/PUMP1_SW" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="17" name="/PUMP2_GATE_DRV" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="18" name="/PUMP2_GPIO17" class="Default">
+      <node ref="R2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="IO17" pintype="unspecified"/>
+    </net>
+    <net code="19" name="/PUMP2_SW" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="20" name="/PUMP3_GATE_DRV" class="Default">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="21" name="/PUMP3_GPIO18" class="Default">
+      <node ref="R3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="IO18" pintype="unspecified"/>
+    </net>
+    <net code="22" name="/PUMP3_SW" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="23" name="/PUMP4_GATE_DRV" class="Default">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="unspecified"/>
+      <node ref="R4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="24" name="/PUMP4_GPIO19" class="Default">
+      <node ref="R4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="IO19" pintype="unspecified"/>
+    </net>
+    <net code="25" name="/PUMP4_SW" class="Default">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="unspecified"/>
+    </net>
+    <net code="26" name="/TEMP_DS18B20_GPIO4" class="Default">
+      <node ref="J8" pin="3" pinfunction="3" pintype="unspecified"/>
+      <node ref="R9" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="IO4" pintype="unspecified"/>
+    </net>
+    <net code="27" name="unconnected-(U1-CLK-Pad20)" class="Default">
+      <node ref="U1" pin="20" pinfunction="CLK" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-CMD-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="CMD" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-IO0-Pad25)" class="Default">
+      <node ref="U1" pin="25" pinfunction="IO0" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U1-IO2-Pad24)" class="Default">
+      <node ref="U1" pin="24" pinfunction="IO2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U1-IO5-Pad29)" class="Default">
+      <node ref="U1" pin="29" pinfunction="IO5" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-IO12-Pad14)" class="Default">
+      <node ref="U1" pin="14" pinfunction="IO12" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U1-IO13-Pad16)" class="Default">
+      <node ref="U1" pin="16" pinfunction="IO13" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U1-IO14-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="IO14" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U1-IO15-Pad23)" class="Default">
+      <node ref="U1" pin="23" pinfunction="IO15" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U1-IO23-Pad37)" class="Default">
+      <node ref="U1" pin="37" pinfunction="IO23" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(U1-IO25-Pad10)" class="Default">
+      <node ref="U1" pin="10" pinfunction="IO25" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(U1-IO32-Pad8)" class="Default">
+      <node ref="U1" pin="8" pinfunction="IO32" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(U1-IO33-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="IO33" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(U1-NC-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="NC" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(U1-RXD0-Pad34)" class="Default">
+      <node ref="U1" pin="34" pinfunction="RXD0" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U1-SD0-Pad21)" class="Default">
+      <node ref="U1" pin="21" pinfunction="SD0" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U1-SD1-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="SD1" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-SD2-Pad17)" class="Default">
+      <node ref="U1" pin="17" pinfunction="SD2" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U1-SD3-Pad18)" class="Default">
+      <node ref="U1" pin="18" pinfunction="SD3" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U1-SENSOR_VN-Pad5)" class="Default">
+      <node ref="U1" pin="5" pinfunction="SENSOR_VN" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U1-SENSOR_VP-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="SENSOR_VP" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U1-TXD0-Pad35)" class="Default">
+      <node ref="U1" pin="35" pinfunction="TXD0" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U2-BST-Pad8)" class="Default">
+      <node ref="U2" pin="8" pinfunction="BST" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U2-COMP-Pad3)" class="Default">
+      <node ref="U2" pin="3" pinfunction="COMP" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U2-EN-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="EN" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U2-FB-Pad4)" class="Default">
+      <node ref="U2" pin="4" pinfunction="FB" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U2-FREQ-Pad6)" class="Default">
+      <node ref="U2" pin="6" pinfunction="FREQ" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U2-SW-Pad1)" class="Default">
+      <node ref="U2" pin="1" pinfunction="SW" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>
