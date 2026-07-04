@@ -1,0 +1,9 @@
+
+# KiCad/MCP generated temp files
+**/.mcp-backups/
+**/freerouting*.stdout
+**/freerouting*.stderr
+**/*.dsn
+**/*.ses
+**/*_drc_violations.json
+**/test_one.kicad_sch
