@@ -16687,5 +16687,181 @@
 			)
 		)
 	)
+	(gr_text "LEGEND: COMPONENT TYPE / KEY NETS (F.Fab)"
+		(at 6 78 0)
+		(layer "F.Fab")
+		(uuid "9287ec41-c65f-4772-92c8-f32213f6126b")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "U2 ESP32: SPI/I2C/RS485/GPIO"
+		(at 6 80 0)
+		(layer "F.Fab")
+		(uuid "8736c4c3-315c-4073-85ac-6d12e86c692d")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "U7 MAX31865: PT100 SPI -> GPIO5/18/19/23"
+		(at 6 82 0)
+		(layer "F.Fab")
+		(uuid "c64344cb-908f-44ef-9168-c53e6296c827")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "U3 ADS1115: AI1-AI4 analog inputs"
+		(at 6 84 0)
+		(layer "F.Fab")
+		(uuid "5e0e9a64-4d8d-473b-854d-65575b7eeddc")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "U1 MAX485: DT80/J16 RS485 A/B"
+		(at 6 86 0)
+		(layer "F.Fab")
+		(uuid "dae56e03-b3ba-4a11-904d-db0d129f061b")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "U4 ULN2003: REL1/REL2 drivers"
+		(at 6 88 0)
+		(layer "F.Fab")
+		(uuid "20345bba-7f57-47dd-96a8-09fa1c7c946c")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J11 HMP analog: AI1 AI2 GND +5"
+		(at 6 90 0)
+		(layer "F.Fab")
+		(uuid "992cca61-7496-4b97-a16a-b21a8a46caaa")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J12 Wind analog: AI3 AI4 GND +5"
+		(at 6 92 0)
+		(layer "F.Fab")
+		(uuid "3cd1d41d-56da-4cbe-8bbc-070dfc945491")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J13 BP loop: +12 BP_LOOP GND"
+		(at 6 94 0)
+		(layer "F.Fab")
+		(uuid "a6bc0371-60ea-4f4b-88a8-7e47529d042e")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J14 PT100: I+ V+ V- I-"
+		(at 6 96 0)
+		(layer "F.Fab")
+		(uuid "abc58120-1315-4666-a49e-96063f070505")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J15 SDI12: +12 DATA GND"
+		(at 6 98 0)
+		(layer "F.Fab")
+		(uuid "2276b5ca-ad9f-470b-97cc-77101ee75abd")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "J16 RS485 bus: +12 A B GND"
+		(at 6 100 0)
+		(layer "F.Fab")
+		(uuid "b881990b-51df-4f6c-b2b4-f9af245c2178")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "R10 165R: BP 4-20mA shunt"
+		(at 6 102 0)
+		(layer "F.Fab")
+		(uuid "55f43e1a-8981-44f0-89f3-f93524b15f6f")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "R12 120R: RS485 termination DNP"
+		(at 6 104 0)
+		(layer "F.Fab")
+		(uuid "fc18ab5a-6667-40bd-94de-2f50095e0d74")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "D1-D5: TVS field protection"
+		(at 6 106 0)
+		(layer "F.Fab")
+		(uuid "59012190-c6be-40a2-a371-a545dd8ef28d")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "R13/C7: Young pulse filter"
+		(at 6 108 0)
+		(layer "F.Fab")
+		(uuid "275bccda-90d2-4533-82e1-b07935beecf4")
+		(effects
+			(font
+				(size 0.85 0.85)
+				(thickness 0.1)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
