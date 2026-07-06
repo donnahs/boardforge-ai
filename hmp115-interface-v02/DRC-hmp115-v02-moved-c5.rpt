@@ -1,0 +1,29 @@
+** Drc report for HMP115-Interface-v02.kicad_pcb **
+** Created on 2026-07-06T09:55:14+0800 **
+** Report includes: Errors, Warnings **
+
+** Found 4 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(64.9013 mm, 20.0000 mm): Track [GND] on F.Cu, length 15.8587 mm
+    @(69.2250 mm, 20.0000 mm): Pad 1 [+3V3] of C5 on F.Cu
+[shorting_items]: Items shorting two nets (nets +3V3 and GND)
+    Local override; error
+    @(69.2250 mm, 20.0000 mm): Pad 1 [+3V3] of C5 on F.Cu
+    @(64.9013 mm, 20.0000 mm): Track [GND] on F.Cu, length 15.8587 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(80.7750 mm, 18.0000 mm): Track [GND] on F.Cu, length 1.9850 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(78.1500 mm, 16.9250 mm): Track [+3V3] on F.Cu, length 1.5203 mm
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(78.1500 mm, 12.0000 mm): Track [+3V3] on F.Cu, length 6.3000 mm
+    @(69.2250 mm, 20.0000 mm): Pad 1 [+3V3] of C5 on F.Cu
+
+** Found 0 Footprint errors **
+
+** End of Report **

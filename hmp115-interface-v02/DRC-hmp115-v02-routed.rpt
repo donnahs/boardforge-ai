@@ -1,0 +1,30 @@
+** Drc report for HMP115-Interface-v02.kicad_pcb **
+** Created on 2026-07-06T09:54:33+0800 **
+** Report includes: Errors, Warnings **
+
+** Found 5 DRC violations **
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; error
+    @(80.0000 mm, 18.0000 mm): Footprint C5
+    @(98.0000 mm, 22.0000 mm): Footprint J4
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(72.0000 mm, 8.0000 mm): PCB text '3V3 REG' on F.Silkscreen
+    @(75.0000 mm, 7.5000 mm): Reference field of U2
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(79.8594 mm, 17.4900 mm): Segment of C5 on F.Silkscreen
+    @(80.1000 mm, 27.3200 mm): Segment of J4 on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; warning
+    @(79.8594 mm, 18.5100 mm): Segment of C5 on F.Silkscreen
+    @(80.1000 mm, 27.3200 mm): Segment of J4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(100.6600 mm, 17.9000 mm): Segment of J4 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
