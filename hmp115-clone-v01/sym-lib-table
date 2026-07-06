@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "HMP115-Clone")(type "KiCad")(uri "/home/donnahs/projects/_active/boardforge-ai/hmp115-clone-v01/hmp115-clone-custom.kicad_sym")(options "")(descr "HMP115 clone custom symbols"))
+)

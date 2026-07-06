@@ -9,6 +9,8 @@
 			(pin_names
 				(offset 0)
 			)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -96,6 +98,8 @@
 			(pin_names
 				(offset 0.254)
 			)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -197,6 +201,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "L"
 				(at -1.27 0 90)
 				(effects
@@ -320,6 +326,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "Y"
 				(at 0 3.81 0)
 				(effects
@@ -454,6 +462,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -565,6 +575,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -675,6 +687,8 @@
 		(symbol "Device:Q_NPN_BCE"
 			(pin_names
 				(offset 0) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "Q"
 				(at 5.08 1.27 0)
 				(effects
@@ -828,6 +842,8 @@
 		(symbol "Device:Q_NMOS_GSD"
 			(pin_names
 				(offset 0) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "Q"
 				(at 5.08 1.27 0)
 				(effects
@@ -1088,6 +1104,8 @@
 			(pin_names
 				(offset 0.127)
 			)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at 0 5.08 0)
 				(effects
@@ -1230,6 +1248,8 @@
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 2.54 0)
 				(effects
@@ -1335,6 +1355,8 @@
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -1499,6 +1521,8 @@
 			(pin_names
 				(offset 0.254)
 			)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at -3.81 3.175 0)
 				(effects
@@ -1604,6 +1628,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
 				(effects
@@ -1722,6 +1748,8 @@
 		)
 		(symbol "HMP115-Clone:STM32C011F6P6_HMP115"
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at 2.54 0 0)
 				(effects
@@ -1745,6 +1773,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Datasheet" "~"
 				(at 0 -7.62 0)
@@ -1753,6 +1782,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Description" "STM32C011F6P6 TSSOP20 mapped for HMP115 clone: I2C SHT31 + USART2 RS485 + SWD"
 				(at 0 -10.16 0)
@@ -1761,6 +1791,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(symbol "STM32C011F6P6_HMP115_0_1"
 				(rectangle
@@ -2140,6 +2171,8 @@
 		)
 		(symbol "HMP115-Clone:SHT31_DIS_B"
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at 2.54 0 0)
 				(effects
@@ -2163,6 +2196,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Datasheet" "~"
 				(at 0 -7.62 0)
@@ -2171,6 +2205,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Description" "Sensirion SHT31-DIS humidity and temperature sensor DFN-8"
 				(at 0 -10.16 0)
@@ -2179,6 +2214,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(symbol "SHT31_DIS_B_0_1"
 				(rectangle
@@ -2342,6 +2378,8 @@
 		)
 		(symbol "HMP115-Clone:MAX3485ED"
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at 2.54 0 0)
 				(effects
@@ -2365,6 +2403,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Datasheet" "~"
 				(at 0 -7.62 0)
@@ -2373,6 +2412,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Description" "3.3V half-duplex RS485 transceiver SOP-8"
 				(at 0 -10.16 0)
@@ -2381,6 +2421,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(symbol "MAX3485ED_0_1"
 				(rectangle
@@ -2544,6 +2585,8 @@
 		)
 		(symbol "HMP115-Clone:AMS1117_3V3_SOT223"
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at 2.54 0 0)
 				(effects
@@ -2567,6 +2610,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Datasheet" "~"
 				(at 0 -7.62 0)
@@ -2575,6 +2619,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(property "Description" "AMS1117-3.3 LDO regulator SOT-223"
 				(at 0 -10.16 0)
@@ -2583,6 +2628,7 @@
 						(size 1.27 1.27)
 					)
 				)
+				(hide yes)
 			)
 			(symbol "AMS1117_3V3_SOT223_0_1"
 				(rectangle
@@ -2657,8 +2703,11 @@
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 5.08 0)
 				(effects
@@ -2681,6 +2730,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "~"
@@ -2689,6 +2739,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x04, script generated"
@@ -2697,6 +2748,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -2713,6 +2765,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
@@ -2721,6 +2774,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
@@ -2894,8 +2948,11 @@
 		(symbol "Connector:Conn_01x05_Pin"
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "J"
 				(at 0 7.62 0)
 				(effects
@@ -2918,6 +2975,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "~"
@@ -2926,6 +2984,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, single row, 01x05, script generated"
@@ -2934,6 +2993,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_locked" ""
@@ -2950,6 +3010,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_1x??_*"
@@ -2958,6 +3019,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "Conn_01x05_Pin_1_1"
@@ -3171,17 +3233,23 @@
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "#FLG"
 				(at 0 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Value" "PWR_FLAG"
@@ -3198,6 +3266,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Datasheet" "~"
@@ -3206,6 +3275,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "Description" "Special symbol for telling ERC where power comes from"
@@ -3214,6 +3284,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "flag power"
@@ -3222,6 +3293,7 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
 			(symbol "PWR_FLAG_0_0"
@@ -3265,10 +3337,17 @@
 		(lib_id "HMP115-Clone:STM32C011F6P6_HMP115")
 		(at 110 80 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "c415c061-1030-408b-b64e-2a6b86d4a26b")
 		(property "Reference" "U1"
 			(at 110.49 59.68 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,6 +3356,8 @@
 		)
 		(property "Value" "STM32C011F6P6"
 			(at 110.49 100.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3285,6 +3366,9 @@
 		)
 		(property "Footprint" "JLC-MCP:TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
 			(at 110 74.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3293,6 +3377,9 @@
 		)
 		(property "Datasheet" ""
 			(at 110 72.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,6 +3388,9 @@
 		)
 		(property "Description" "STM32C011F6P6 TSSOP20 mapped for HMP115 clone: I2C SHT31 + USART2 RS485 + SWD"
 			(at 110 69.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3380,10 +3470,17 @@
 		(lib_id "HMP115-Clone:SHT31_DIS_B")
 		(at 155 60 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "22284a19-59a1-4367-9bdd-4cb05d71c506")
 		(property "Reference" "U2"
 			(at 154.94 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3392,6 +3489,8 @@
 		)
 		(property "Value" "SHT31-DIS-B"
 			(at 154.94 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,6 +3499,9 @@
 		)
 		(property "Footprint" "JLC-MCP:DFN-8_L2.5-W2.5-P0.50-BL-EP"
 			(at 155 54.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,6 +3510,9 @@
 		)
 		(property "Datasheet" ""
 			(at 155 52.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,6 +3521,9 @@
 		)
 		(property "Description" "Sensirion SHT31-DIS humidity and temperature sensor DFN-8"
 			(at 155 49.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3459,10 +3567,17 @@
 		(lib_id "HMP115-Clone:MAX3485ED")
 		(at 155 100 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "7beaef4a-d72a-45c3-b1e6-7e97ecb5563e")
 		(property "Reference" "U3"
 			(at 154.94 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,6 +3586,8 @@
 		)
 		(property "Value" "MAX3485ED"
 			(at 154.94 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,6 +3596,9 @@
 		)
 		(property "Footprint" "JLC-MCP:SOP-8_L4.9-W3.9-P1.27-LS6.0-BL"
 			(at 155 94.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3487,6 +3607,9 @@
 		)
 		(property "Datasheet" ""
 			(at 155 92.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,6 +3618,9 @@
 		)
 		(property "Description" "3.3V half-duplex RS485 transceiver SOP-8"
 			(at 155 89.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,10 +3664,17 @@
 		(lib_id "HMP115-Clone:AMS1117_3V3_SOT223")
 		(at 70 75 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "c05d79ba-3480-484b-8fbe-9393bb4494ae")
 		(property "Reference" "U4"
 			(at 69.85 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,6 +3683,8 @@
 		)
 		(property "Value" "AMS1117-3.3"
 			(at 69.85 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,6 +3693,9 @@
 		)
 		(property "Footprint" "JLC-MCP:SOT-223-3_L6.5-W3.4-P2.30-LS7.0-BR"
 			(at 70 69.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,6 +3704,9 @@
 		)
 		(property "Datasheet" ""
 			(at 70 67.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,6 +3715,9 @@
 		)
 		(property "Description" "AMS1117-3.3 LDO regulator SOT-223"
 			(at 70 64.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3602,10 +3746,17 @@
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 40 100 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "eefcaaaa-ac53-4a09-8d80-a8f17cefa1d2")
 		(property "Reference" "J1"
 			(at 39.37 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3614,6 +3765,8 @@
 		)
 		(property "Value" "FIELD_5-28V_RS485"
 			(at 39.37 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3622,6 +3775,9 @@
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4-5.08_1x04_P5.08mm_Horizontal"
 			(at 40 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,6 +3786,9 @@
 		)
 		(property "Datasheet" ""
 			(at 40 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3638,6 +3797,9 @@
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
 			(at 40 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3669,10 +3831,17 @@
 		(lib_id "Connector:Conn_01x05_Pin")
 		(at 70 120 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "1c7ddb11-9b2a-44e0-8b50-aeb271584b67")
 		(property "Reference" "J2"
 			(at 69.85 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3681,6 +3850,8 @@
 		)
 		(property "Value" "SWD_PROG"
 			(at 69.85 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3689,6 +3860,9 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 70 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3697,6 +3871,9 @@
 		)
 		(property "Datasheet" ""
 			(at 70 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,6 +3882,9 @@
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
 			(at 70 120 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,10 +3919,17 @@
 		(lib_id "Device:R")
 		(at 140 45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "4bee8edf-b3bf-42d6-a4d9-a94d6dd8ac20")
 		(property "Reference" "R1"
 			(at 139.7 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3751,6 +3938,8 @@
 		)
 		(property "Value" "4.7k SDA PU"
 			(at 139.7 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,6 +3948,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.222 45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3767,6 +3959,9 @@
 		)
 		(property "Datasheet" ""
 			(at 140 45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,6 +3970,9 @@
 		)
 		(property "Description" ""
 			(at 140 45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,10 +3998,17 @@
 		(lib_id "Device:R")
 		(at 140 50 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "350098ae-9a62-4810-be89-0c321c438935")
 		(property "Reference" "R2"
 			(at 139.7 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3812,6 +4017,8 @@
 		)
 		(property "Value" "4.7k SCL PU"
 			(at 139.7 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3820,6 +4027,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.222 50 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3828,6 +4038,9 @@
 		)
 		(property "Datasheet" ""
 			(at 140 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3836,6 +4049,9 @@
 		)
 		(property "Description" ""
 			(at 140 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3861,10 +4077,17 @@
 		(lib_id "Device:R")
 		(at 175 100 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "90b9765d-403c-4c48-b529-0fa276eb896e")
 		(property "Reference" "R3"
 			(at 175.26 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,6 +4096,8 @@
 		)
 		(property "Value" "120R TERM DNP"
 			(at 175.26 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,6 +4106,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 173.222 100 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,6 +4117,9 @@
 		)
 		(property "Datasheet" ""
 			(at 175 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,6 +4128,9 @@
 		)
 		(property "Description" ""
 			(at 175 100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3922,10 +4156,17 @@
 		(lib_id "Device:R")
 		(at 140 112 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "b8a62521-61fa-41eb-883c-b7efb1af8fc3")
 		(property "Reference" "R4"
 			(at 139.7 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3934,6 +4175,8 @@
 		)
 		(property "Value" "10k DIR PD"
 			(at 139.7 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,6 +4185,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 138.222 112 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,6 +4196,9 @@
 		)
 		(property "Datasheet" ""
 			(at 140 112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,6 +4207,9 @@
 		)
 		(property "Description" ""
 			(at 140 112 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3983,10 +4235,17 @@
 		(lib_id "Device:C")
 		(at 75 60 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "8063a871-5e1f-4f89-81b9-e7f71907bea4")
 		(property "Reference" "C1"
 			(at 74.93 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,6 +4255,8 @@
 		)
 		(property "Value" "10uF VIN"
 			(at 74.93 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4005,6 +4266,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 75.965 56.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,6 +4277,9 @@
 		)
 		(property "Datasheet" ""
 			(at 75 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,6 +4288,9 @@
 		)
 		(property "Description" ""
 			(at 75 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,10 +4316,17 @@
 		(lib_id "Device:C")
 		(at 80 90 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "b64636ce-0cc5-4dd3-aed5-29169db8b65c")
 		(property "Reference" "C2"
 			(at 80.01 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,6 +4336,8 @@
 		)
 		(property "Value" "10uF 3V3"
 			(at 80.01 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,6 +4347,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 80.965 86.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4076,6 +4358,9 @@
 		)
 		(property "Datasheet" ""
 			(at 80 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,6 +4369,9 @@
 		)
 		(property "Description" ""
 			(at 80 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,10 +4397,17 @@
 		(lib_id "Device:C")
 		(at 118 60 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "7c555086-f3ae-4ce8-b1fc-1b7c7133510b")
 		(property "Reference" "C3"
 			(at 118.11 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,6 +4417,8 @@
 		)
 		(property "Value" "100nF MCU"
 			(at 118.11 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,6 +4428,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 118.965 56.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,6 +4439,9 @@
 		)
 		(property "Datasheet" ""
 			(at 118 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,6 +4450,9 @@
 		)
 		(property "Description" ""
 			(at 118 60 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4172,10 +4478,17 @@
 		(lib_id "Device:C")
 		(at 165 50 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "344f15f2-8653-4b31-866d-a3afb0bf2d7c")
 		(property "Reference" "C4"
 			(at 165.1 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4185,6 +4498,8 @@
 		)
 		(property "Value" "100nF SHT31"
 			(at 165.1 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4194,6 +4509,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.965 46.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,6 +4520,9 @@
 		)
 		(property "Datasheet" ""
 			(at 165 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,6 +4531,9 @@
 		)
 		(property "Description" ""
 			(at 165 50 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,10 +4559,17 @@
 		(lib_id "Device:C")
 		(at 165 90 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "126afd62-7d6b-4027-8b90-4b303c4dd395")
 		(property "Reference" "C5"
 			(at 165.1 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,6 +4579,8 @@
 		)
 		(property "Value" "100nF RS485"
 			(at 165.1 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4257,6 +4590,9 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 165.965 86.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,6 +4601,9 @@
 		)
 		(property "Datasheet" ""
 			(at 165 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,6 +4612,9 @@
 		)
 		(property "Description" ""
 			(at 165 90 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,10 +4640,17 @@
 		(lib_id "Device:R")
 		(at 155 75 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "9936fae2-99c8-4377-b107-937618e77576")
 		(property "Reference" "R5"
 			(at 154.94 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4310,6 +4659,8 @@
 		)
 		(property "Value" "10k ADDR GND"
 			(at 154.94 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4318,6 +4669,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 153.222 75 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4326,6 +4680,9 @@
 		)
 		(property "Datasheet" ""
 			(at 155 75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,6 +4691,9 @@
 		)
 		(property "Description" ""
 			(at 155 75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4359,10 +4719,17 @@
 		(lib_id "Device:R")
 		(at 130 118 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "e06edded-ae17-4d22-bf78-c5e86396f9e7")
 		(property "Reference" "R6"
 			(at 129.54 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4371,6 +4738,8 @@
 		)
 		(property "Value" "1k LED"
 			(at 129.54 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,6 +4748,9 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 128.222 118 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,6 +4759,9 @@
 		)
 		(property "Datasheet" ""
 			(at 130 118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4395,6 +4770,9 @@
 		)
 		(property "Description" ""
 			(at 130 118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,10 +4798,17 @@
 		(lib_id "Device:LED")
 		(at 145 118 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "e300bb43-c9da-4f51-8fbd-e00f7f5f585b")
 		(property "Reference" "D1"
 			(at 144.78 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,6 +4817,8 @@
 		)
 		(property "Value" "STATUS"
 			(at 144.78 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4440,6 +4827,9 @@
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 145 118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,6 +4838,9 @@
 		)
 		(property "Datasheet" ""
 			(at 145 118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,6 +4849,9 @@
 		)
 		(property "Description" ""
 			(at 145 118 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5139,10 +5535,17 @@
 		(lib_id "power:PWR_FLAG")
 		(at 45 70 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "4dd5720c-aec6-449d-b8d3-447dacccec58")
 		(property "Reference" "#FLG01"
 			(at 44.45 67.46 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5151,6 +5554,8 @@
 		)
 		(property "Value" "PWR_FLAG"
 			(at 44.45 72.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5159,6 +5564,9 @@
 		)
 		(property "Footprint" ""
 			(at 45 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,6 +5575,9 @@
 		)
 		(property "Datasheet" ""
 			(at 45 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5175,6 +5586,9 @@
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 45 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5197,10 +5611,17 @@
 		(lib_id "power:PWR_FLAG")
 		(at 50 70 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "e67d49b9-1017-4895-b6af-d66bb4dd4d8f")
 		(property "Reference" "#FLG02"
 			(at 49.53 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,6 +5630,8 @@
 		)
 		(property "Value" "PWR_FLAG"
 			(at 49.53 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,6 +5640,9 @@
 		)
 		(property "Footprint" ""
 			(at 50 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5225,6 +5651,9 @@
 		)
 		(property "Datasheet" ""
 			(at 50 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5233,6 +5662,9 @@
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
 			(at 50 70 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,87 +5702,6 @@
 			(justify left bottom)
 		)
 		(uuid "0e16928f-7052-455c-96dc-a07a357b544c")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 165 75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(uuid "2af82d39-dabc-42a9-a6a3-22c2f57aa4dc")
-		(property "Reference" "R7"
-			(at 162.56 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k SHT_RESET PU"
-			(at 167.64 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 163.222 75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165 75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 165 75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8fdb907-2a3b-4fc4-922f-584fd041721c")
-		)
-		(pin "2"
-			(uuid "61fdaf73-5806-4aff-98ea-abcc07f46d54")
-		)
-		(instances
-			(project "HMP115-Clone-v01"
-				(path "/d2918ead-d2d6-496d-ab6c-466137fa83d4"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(label "3V3"
-		(at 165.0 71.19 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6b8592ed-a686-45e0-9eee-a74a1d24744c")
-	)
-	(label "SHT_RESET"
-		(at 165.0 78.81 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61d4b070-72ae-4665-b0ef-fc6b38f14514")
 	)
 	(sheet_instances
 		(path "/"

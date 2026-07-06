@@ -50,4 +50,12 @@ This is a **functional clone / compatible replacement direction**, not a copy of
 - `FIRST_BUILD_CHECKLIST.md` — what to build/test first
 
 ## Current status
-Design package/scaffold created. Next step is schematic capture + PCB routing for v01 probe board.
+v01 now has schematic capture, custom project symbols, PCB placement, autorouted copper, and a fabrication export package.
+
+Verification:
+- Schematic ERC: 0 errors, warnings only
+- PCB DRC: 0 violations
+- Unconnected pads: 0
+- Footprint errors: 0
+
+Important: human review is still required before ordering, especially SHT31 footprint/pin orientation, STM32 alternate-function pin mapping, field power dissipation, enclosure/filter cap, and RS485 A/B polarity.
