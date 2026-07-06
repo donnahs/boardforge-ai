@@ -1,0 +1,17 @@
+Designator,Qty,Function,Part,LCSC,Package,Notes
+U1,1,RH/T sensor,Sensirion SHT31-DIS-B2.5kS,C80862,DFN-8-EP 2.5x2.5,"0-100%RH, -40..125C, I2C, factory calibrated"
+U2,1,MCU,STM32C011F6P6,C5456198,TSSOP-20,"UART + I2C + GPIO, 3.3V"
+U3,1,RS485 transceiver,MAX3485ED compatible,C558792,SOP-8,"3.3V half-duplex RS485"
+U4,1,3.3V regulator,AMS1117-3.3,C6186,SOT-223,"v01 easy part; consider low-Iq buck/LDO in v02"
+J1,1,Field connector,4-pin 3.5mm terminal,TBD,Terminal,"VIN,GND,RS485_A,RS485_B"
+J2,1,Programming header,SWD 4/5 pin,TBD,Pin header/TagConnect,"SWDIO,SWCLK,GND,3V3,NRST optional"
+R1,1,I2C pullup,4.7k,TBD,0603,SDA pullup
+R2,1,I2C pullup,4.7k,TBD,0603,SCL pullup
+R3,1,RS485 termination,120R,TBD,0603,DNP or jumper-enabled
+R4,1,RS485 dir pulldown,10k,TBD,0603,default receive
+C1-C4,4,Decoupling,100nF,TBD,0603,one near each IC power pin
+C5-C6,2,Bulk caps,10uF,TBD,0805/1206,power rail bulk
+D1,1,VIN TVS,SMBJ/SMF suitable,TBD,SMA/SOD-123,select standoff for supply
+D2,1,RS485 TVS,SM712 or equivalent,TBD,SOT-23/SOIC,protect A/B
+LED1,1,Status LED,Green LED,TBD,0603/0805,optional debug
+RLED,1,LED resistor,1k,TBD,0603,optional
